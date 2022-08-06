@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+:root
+{
+	--corPreto: #000000;
+	--corBranco: #ffffff;	
+}
+
+body
+{
+	height: 100vh;
+}
+
+a
+{
+	text-decoration: none;
+	color: var(--corBranco);
+	font-weight: bolder;
+}
+
+header
+{
+	padding-top: 50px;
+	padding-bottom: 50px;	
+}
+
+footer
+{
+	padding: 10px;
+}
+
+
+header, footer
+{
+	background-color: var(--corPreto);
+	color: var(--corBranco);
+	text-align: center;
+}
+
+header h1
+{
+	font-variant: small-caps;
+}
+
+section
+{
+	padding-top: 10vh;
+	padding-bottom: 10vh;	
+	padding-left: 30px;
+	line-height: 2em;
+}
+
+section p
+{
+	font-style: italic;
+	font-weight: bolder;
+	font-size: 1.5em;
+	padding-bottom: 1.6em;
+	
+}
+
+.box-normal
+{
+	background-color: var(--corBranco);
+	color: var(--corPreto);	
+}
+
+.box-imagem
+{
+	background-position: right center;
+	background-size: cover;	
+	color: var(--corBranco);
+	background-attachment: fixed;
+	box-shadow: inset 3px 3px 5px black;
+}
+
+.box-imagem p
+{
+	background-color: rgba(0, 0, 0, 0.4);
+	display: inline-block;
+	padding: 5px;
+	text-shadow: 3px 3px black;
+}
+
+#box-imagem-1
+{
+	background-image: url('../img/background001.jpg');	
+}
+
+#box-imagem-2
+{
+	background-image: url('../img/background002.jpg');	
+}
